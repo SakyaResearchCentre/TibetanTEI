@@ -19,7 +19,7 @@ Example for a TEI-xml Tibetan diplomatic edition, SRC etext ID [r103](https://sa
 TEI header with TEI-bp encoding description
 
 
-### TEI-Markup for Tibetan historical texts (diplomatic editions)
+### Basic TEI-Markup for Tibetan historical texts (diplomatic editions)
 
 ```
 page breaks: <pb/>; e.g. <pb ed="A" n="1a"/>
@@ -37,7 +37,7 @@ special terminology in the translation (Sanskrit or Tibetan): <term>...</term>; 
 corrections: <choice><sic>...</sic><corr>...</corr></choice>; e.g. བསམ་<choice><sic>གྱི་</sic><corr>གྱིས་</corr></choice>མི་ཁྱག་་་་
 regulations: <choice><orig>...</orig><reg>...</reg></choice>
 
-annotations (by the author or scribe): <gloss>...</gloss>
+annotations (by the author/scribe): <gloss>...</gloss>
 dates: <date>...</date>; e.g. <date when="1446">མེ་ཕོ་སྟག་གི་ལོ</date>
 persons: <persName>...</persName>; e.g. <persName type="BUDA" key="P3183">རྡོ་རྗེ་གདན་པ་ཀུན་དགའ་རྣམ་རྒྱལ་དཔལ་བཟང་པོ</persName>
 places: <placeName>...</placeName>; e.g. <placeName type="BUDA" key="G2800">ལྷ་ས</placeName>
