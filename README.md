@@ -13,10 +13,10 @@ The current customisation is inspired by the online TEI-bp edition of [James Ber
 To display Tibetan TEI editions directly in your browser with TEI Boilerplate directly run the xml files from the static GitHub page:
 
 * **[SRC r103](https://sakyaresearchcentre.github.io/TibetanTEI/content/r103_BP_2021-10-03.xml)**
-Example for a TEI-xml Tibetan diplomatic edition, SRC etext ID [r103](https://sakyaresearch.org/etexts/103/)
+Example for a TEI-xml Tibetan diplomatic edition, SRC etext ID: [r103](https://sakyaresearch.org/etexts/103/)
 
 * **[TEI-xml for reading class WS2021](https://sakyaresearchcentre.github.io/TibetanTEI/content/TEI%20Ganden%20History_BP_excersise%20WS2021_2021-10-03.xml)**
-TEI-xml template for creating a digital edition from a text passage in sDe srid Sangs rgyas rgya mtsho's _dGa' ldan chos 'byung_
+TEI-xml template for creating a digital edition from a text passage in sDe srid Sangs rgyas rgya mtsho's [_dGa' ldan chos 'byung_](https://sakyaresearch.org/sources/2559)
 
 * **[TEI-xml template for Tibetan text](https://sakyaresearchcentre.github.io/TibetanTEI/content/TEI%20header_BP_2021-10-03.xml)**
 TEI header with TEI-bp encoding description
