@@ -15,7 +15,7 @@ To display Tibetan TEI editions directly in your browser with TEI Boilerplate di
 * **[SRC r103](https://sakyaresearchcentre.github.io/TibetanTEI/content/r103_BP_2021-10-03.xml)**
 Example for a TEI-xml Tibetan diplomatic edition, SRC etext ID [r103](https://sakyaresearch.org/etexts/103/)
 
-* **[TEI-xml for reading class WS2021](https://sakyaresearchcentre.github.io/TibetanTEI/content/TEI Ganden History_BP_excersise WS2021_2021-10-03.xml)**
+* **[TEI-xml for reading class WS2021](https://sakyaresearchcentre.github.io/TibetanTEI/content/TEI%Ganden%History_BP_excersise%WS2021_2021-10-03.xml)**
 TEI-xml template for creating a digital edition from a text passage in sDe srid Sangs rgyas rgya mtsho's _dGa' ldan chos 'byung_
 
 * **[TEI-xml template for Tibetan text](https://sakyaresearchcentre.github.io/TibetanTEI/content/TEI%20header_BP_2021-10-03.xml)**
