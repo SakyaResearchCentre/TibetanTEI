@@ -16,7 +16,15 @@
          variables, and parameters from teibp.xsl 
          to be overridden here. -->
     <xsl:import href="teibp.xsl"/>
+
+<!-- Date hover -->
     
+      <xsl:template match="tei:date[@when]">
+      <xsl:apply-templates select="@when"/>
+      <a style="color:black;font-weight:bold;text-decoration:none;" title="greg.: {@when}">
+            <xsl:apply-templates/>
+        </a>
+  </xsl:template>
 
 <!-- BUDA links -->
 
