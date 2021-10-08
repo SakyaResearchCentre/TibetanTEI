@@ -10,7 +10,7 @@ The current customisation is inspired by the online TEI-bp edition of [James Ber
 
 ## Tibetan TEI-xml examples
 
-To display Tibetan TEI editions directly in your browser with TEI Boilerplate directly run the xml files from the static GitHub page
+To display Tibetan TEI editions directly in your browser with TEI Boilerplate directly run the xml files from the static GitHub page:
 
 * **[SRC r103](https://sakyaresearchcentre.github.io/TibetanTEI/content/r103_BP_2021-10-03.xml)**
 Example for a TEI-xml Tibetan diplomatic edition, SRC etext ID [r103](https://sakyaresearch.org/etexts/103/)
