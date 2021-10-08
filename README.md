@@ -6,9 +6,9 @@ This repository is part of the teaching material for the course
 
 For more information on the **TibetanTEI repository** and live display of TEI Tibetan editions through TEI Boilerplate check to the [static GitHub page](https://sakyaresearchcentre.github.io/TibetanTEI/)
 
-```
-**Markup for Tibetan historical Texts (diplomatic editions)**
+# TEI-Markup for Tibetan historical text material (diplomatic editions)
 
+```
 page breaks: <pb/>; e.g. <pb ed="A" n="1a"/>
 divisions: <div>...</div>
 paragraphs: <p>...</p>
