@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+## Welcome to the TibetanTEI repository
 
-You can use the [editor on GitHub](https://github.com/SakyaResearchCentre/TibetanTEI/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This repository is part of the teaching material for the course **[142016 PS Introduction to digital methods and tools for Tibetan studies (2021W)](https://ufind.univie.ac.at/en/course.html?lv=142016&semester=2021W)** at the University of Vienna.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The repository contains a customised version of the [TEI Boilerplate](https://github.com/TEI-Boilerplate/TEI-Boilerplate) for rendering TEI-encoded diplomatic editions of Tibetan text in a browser. Features and styles are configured to display Tibetan Unicode text with facsimile images in the traditional Pecha format. The TEI encoding scheme applied in the example editions is designed for annotating particularly Tibetan historical works, colophons or text extracts in a diplomatic fashion with only a single text witness. These tags in line with the [TEI P5 Guidelines](https://tei-c.org/guidelines/P5/) is rendered by the present version of TEI Boilerplate. This encoding covers the annotation of basic editorial features, historical entities and dates, as well as translated parts and specialised terminlogy (see Markup documentation below).
 
-### Markdown
+The current configuration is inspired by the online TEI-bp edition of [James Beresford's Etranslation of _The Aeneid of Virgil_](https://cloud.wdorner.com/teibp/content/beresford_teibp.xml), encoded and digitally published by [William Dorner](https://www.wdorner.com/), University of Central Florida. The "show/hide translation" feature is adopted from Dorner's text view feature. The facsimile display above the text is inspired by a blog post by Charles Riondet, [TEI Boilerplate: Displaying a facsimile beside a transcription](https://tags.hypotheses.org/60)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+# TEI-xml examples of Tibetan text:
 
-# Header 1
-## Header 2
-### Header 3
+* [SRC r103](/content/TEI header_BP_2021-10-03.xml); example for a TEI-xml Tibetan diplomatic edition, SRC etext ID [r103](https://sakyaresearch.org/etexts/103/)
+* [TEI-xml template for Tibetan text](/content/TEI header_BP_2021-10-03.xml); TEI header with TEI-bp encoding description
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+# Markup for Tibetan historical Texts (diplomatic editions)
 
-### Jekyll Themes
+page breaks: <pb/>; e.g. <pb ed="A" n="1a"/>
+divisions: <div>...</div>
+paragraphs: <p>...</p>
+line breaks: <lb/> 
+lines: <l>...</l>
+line groups: <lg>...</lg>
+headings: <head>...</head>
+annotations (by the author or scribe): <gloss>...</gloss>
+gaps: <gap></gap>; e.g. <gap extent="4" unit="letters"></gap>
+unclear sections: <unclear>...</unclear>
+translation part: <trans>...</trans>; e.g. <trans xml:lang="en">...</trans>
+special terms in the translation part (Sanskrit or Tibetan): <term>...</term>; e.g. <term>pravrajyā</term>
+corrections: <choice><sic>...</sic><corr>...</corr></choice>; e.g. བསམ་<choice><sic>གྱི་</sic><corr>གྱིས་</corr></choice>མི་ཁྱག་་་་
+regulations: <choice><orig>...</orig><reg>...</reg></choice>
+dates: <date>...</date>; e.g. <date when="1446">མེ་ཕོ་སྟག་གི་ལོ</date>
+persons: <persName>...</persName>; e.g. <persName type="BUDA" key="P3183">རྡོ་རྗེ་གདན་པ་ཀུན་དགའ་རྣམ་རྒྱལ་དཔལ་བཟང་པོ</persName>
+places: <placeName>...</placeName>; e.g. <placeName type="BUDA" key="G2800">ལྷ་ས</placeName>
+work titles: <title>...</title>; e.g. <title type="RKTS" key="3219">བྱང་ཆུབ་སེམས་དཔའི་སྤྱོད་པ་ལ་འཇུག་པའི་ལེགས་པར་སྦྱར་བ</title>། 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SakyaResearchCentre/TibetanTEI/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
