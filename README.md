@@ -1,16 +1,16 @@
 # Welcome to the TibetanTEI repository - a solution to render Tibetan TEI without xslt transformation
 
 This repository is part of the teaching material for the course
-**[142016 PS Introduction to digital methods and tools for Tibetan studies (2021W)](https://ufind.univie.ac.at/en/course.html?lv=142016&semester=2021W)** at, University of Vienna.
+**[142016 PS Introduction to digital methods and tools for Tibetan studies (2021W)](https://ufind.univie.ac.at/en/course.html?lv=142016&semester=2021W)** at the University of Vienna.
 
-The repository contains a customised version of the [TEI Boilerplate](https://github.com/TEI-Boilerplate/TEI-Boilerplate) for rendering TEI-encoded diplomatic editions of Tibetan text in a browser. Features and styles are configured to display Tibetan Unicode text with facsimile images in the traditional Pecha format. The TEI encoding scheme applied in the example editions is designed in line with the [TEI P5 Guidelines](https://tei-c.org/guidelines/P5/) for annotating particularly Tibetan historical works, colophons or text extracts in a diplomatic fashion with only a single text witness. The encoding covers the markup of basic editorial features, historical entities and dates, as well as translated parts and specialised terminlogy (see Markup documentation below).
+The repository contains a customised version of the [TEI Boilerplate](https://github.com/TEI-Boilerplate/TEI-Boilerplate) for rendering TEI-encoded diplomatic editions of Tibetan Unicode text in a browser. Features and styles are configured to display Tibetan text with facsimile images in the traditional Pecha format. The TEI encoding scheme applied in the example editions is designed in accordance with the [TEI P5 Guidelines](https://tei-c.org/guidelines/P5/) for annotating particularly Tibetan historical works, colophons or text extracts in a diplomatic fashion with only a single text witness. The encoding covers the markup of basic editorial features, historical entities and dates, as well as translated parts and specialised terminlogy (see Markup documentation below).
 
-The current configuration is inspired by the online TEI-bp edition of [James Beresford's Etranslation of _The Aeneid of Virgil_](https://cloud.wdorner.com/teibp/content/beresford_teibp.xml), encoded and digitally published by [William Dorner](https://www.wdorner.com/), University of Central Florida. The "show/hide translation" feature is adopted from Dorner's text view feature. The facsimile display above the text is inspired by a blog post by Charles Riondet, [TEI Boilerplate: Displaying a facsimile beside a transcription](https://tags.hypotheses.org/60).
+The current customisation is inspired by the online TEI-bp edition of [James Beresford's Etranslation of _The Aeneid of Virgil_](https://cloud.wdorner.com/teibp/content/beresford_teibp.xml), encoded and digitally published by [William Dorner](https://www.wdorner.com/), University of Central Florida. The "show/hide translation" feature is adopted from W. Dorner's text view feature. The facsimile display above the text is inspired by a blog post by Charles Riondet, [TEI Boilerplate: Displaying a facsimile beside a transcription](https://tags.hypotheses.org/60).
 
 
 ## Tibetan TEI-xml examples
 
-To display Tibetan TEI editions with TEI Boilerplate directly in your browser, open the following example files from the static GitHub page **[here](https://sakyaresearchcentre.github.io/TibetanTEI/)**
+To display Tibetan TEI editions with TEI Boilerplate directly in your browser, open the following xml files from the static GitHub page **[here](https://sakyaresearchcentre.github.io/TibetanTEI/)**
 
 * **[SRC r103](/content/r103_BP_2021-10-03.xml)**
 Example for a TEI-xml Tibetan diplomatic edition, SRC etext ID [r103](https://sakyaresearch.org/etexts/103/)
