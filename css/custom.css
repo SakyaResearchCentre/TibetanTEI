@@ -1,0 +1,127 @@
+/* Place project-specific CSS here */
+
+html {
+  font-family: "Qomolangma-UchenSarchung", "Microsoft Himalaya", Helvetica, Arial, sans-serif;
+  font-size: 22pt;
+ background: white;
+}
+
+titleStmt > tei-title {
+  display: block;
+  font-family: Arvo, sans-serif;
+  font-weight: normal;
+  font-weight: bold !important;
+  font-size: 100%;
+}
+
+pb {
+  display: block;
+  text-align: right;
+  font-size: 22px;
+}
+
+/* Display Toolbox */
+
+#teibpToolbox {
+  font-family: "Qomolangma-UchenSarchung", "Microsoft Himalaya", Helvetica, Arial, sans-serif;
+  width: 8em;
+}
+
+#teibpToolbox green {
+  color: green;
+}
+
+#teibpToolbox blue {
+  color: blue;
+}
+
+#teibpToolbox orange {
+  color: orange;
+}
+
+#teibpToolbox dashed {
+  text-decoration:underline;
+  text-decoration-style:dashed;
+}
+
+/* Display facsimile above transcription */
+
+.-teibp-thumbnail {
+display: block;
+max-height: 300px;
+max-width: 950px;
+align:top;
+font-size: 20px;
+ }
+
+ .-teibp-pageNum{
+ font-size:22px;
+ display:block;
+ text-align:left;
+ }
+
+/* Display of facsViewer */
+
+#resizable {
+  background-color: #EBEBEB;
+  width: 950px;
+}
+
+/* Display of futher TEI tags */
+
+head:before {
+ content: "§ ";
+}
+
+linkGrp {
+  display: none;
+}
+
+app { display: none;
+}
+
+/* Choice elements */
+choice abbr + expan:before,
+choice expan + abbr:before,
+choice sic + corr:before,
+choice corr + sic:before,
+choice orig + reg:before,
+choice reg + orig:before {
+  content: "(=";
+}
+choice abbr + expan:after,
+choice expan + abbr:after,
+choice sic + corr:after,
+choice corr + sic:after,
+choice orig + reg:after,
+choice reg + orig:after {
+  content: ") ";
+}
+
+note {
+  display: none;
+}
+
+gap:before {
+ content: "[---] ";
+}
+
+gloss {
+ display: inline
+ font-size: 85%;
+ color: gray;
+}
+
+gloss:before {
+ content: "{";
+}
+gloss:after {
+ content: "} ";
+}
+
+unclear:before {
+ content: "";
+}
+unclear:after {
+ content: "";
+}
