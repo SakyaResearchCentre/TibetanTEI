@@ -1,7 +1,6 @@
-# Welcome to the TibetanTEI repository
-Display of Tibetan Unicode TEI-XML via TEI Boilerplate
+# Welcome to the TibetanTEI repository - a solution to render Tibetan TEI without xslt transformation
 
-For the display of TEI-xml Tibetan editions in TEI Boilerplate, check the **[GitHub page](https://sakyaresearchcentre.github.io/TibetanTEI/)**
+To display digital Tibetan editions directly in your browser, check the TEI-xml examples on the **[GitHub page](https://sakyaresearchcentre.github.io/TibetanTEI/)**
 
 This repository is part of the teaching material for the course
 **[142016 PS Introduction to digital methods and tools for Tibetan studies (2021W)](https://ufind.univie.ac.at/en/course.html?lv=142016&semester=2021W)** at, University of Vienna.
