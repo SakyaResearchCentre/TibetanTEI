@@ -1,4 +1,5 @@
-## TEI-xml examples of Tibetan text:
+## Tibetan TEI-xml editions for TEI Boilerplate
+
 
 * **[SRC r103](/TibetanTEI/content/r103_BP_2021-10-03.xml)**; example for a TEI-xml Tibetan diplomatic edition, SRC etext ID [r103](https://sakyaresearch.org/etexts/103/)
 
