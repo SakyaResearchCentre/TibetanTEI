@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+	<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+	<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc> <!-- mandatory!  bibliographic description of the digital file -->
+      <titleStmt><!-- mandatory!  Titles, author and editor/s of the digital document -->
+        <title xml:lang="bo">དཔལ་མཉམ་མེད་རི་བོ་དགེ་ལྡན་པའི་ཆོས་འབྱུང་བཻཌཱུར་པོའི་མེ་ལོང་ལས། དགའ་ལྡན་གྱི་གདན་རབས་སྐོར།</title>
+        <title xml:lang="en">sDe srid Sangs rgyas rgya mtsho's (1653–1705) History of the Ganden Tradition, Section on the abbatial succession of Ganden monastery</title>
+        <author>
+          <name xml:lang="bo">སྡེ་སྲིད་སངས་རྒྱས་རྒྱ་མཚོ། (༡༦༥༣-༡༧༠༥)</name>
+        </author>
+        <respStmt>
+          <resp>Text input:</resp>
+          <name>Mathias Fermer</name>
+        </respStmt>
+        <respStmt><!-- Editing of the digital text (encoding, markup) -->
+          <resp>TEI Encoding and Markup:</resp>
+          <name>Exercise for the course "Einführung in digitale Methoden und Tools für die Tibetologie" (2021WS), University of Vienna</name>
+        </respStmt>
+      </titleStmt>
+
+        <publicationStmt> <!-- mandatory!  information about the publication/distribution of the digital text -->
+        <availability>
+          <p>This digital text is made available under a CC (Creative Commons) License Attribution Share-Alike, 4.0.</p>
+        </availability>
+      </publicationStmt>
+
+      <sourceDesc> <!-- mandatory!  bibliographic information about the source/s from which the digital text is derived or generated -->
+        <listWit> <!-- list of consulted editions (manuscript/block print), editor, place and year of publication, extent-->
+          <witness xml:id="A">
+          <bibl>དཔལ་མཉམ་མེད་རི་བོ་དགེ་ལྡན་པའི་ཆོས་འབྱུང་བཻཌཱུར་སེར་པོའི་མེ་ལོང་། New Delhi: Ngawang Gelek Demo, 1980. 2 volumes. BUDA: W23957</bibl>
+          </witness>
+          <witness xml:id="B">
+          <bibl>དགའ་ལྡན་ཆོས་འབྱུང་བཻཌཱུརྱ་སེར་པོ། Beijing: Krung go bod kyi shes rig dpe skrun khang, 1989. BUDA: W8224</bibl>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+
+   <encodingDesc> <!-- optional! information of editorial principles -->
+        <editorialDecl>
+          <p>Named entities of the text (i.e. persons, places, work titles) are annotated and linked to online resources including the Buddhist Digital Archives (BUDA; https://library.bdrc.io/), the Sakya Research Centre (SRC; https://sakyaresearch.org/) and the Resources for Kanjur &amp; Tanjur Studies (rKTs; https://www.istb.univie.ac.at/kanjur). Non-canonical works are referred to by its Tohoku catalogue number (i.e. A catalogue of the Tohoku University collection of Tibetan works on Buddhism. Kanakura et al. (eds.). Sendai: Seminary of Indology, Tohoku University, 1953). Dates of persons are given according to the BUDA database.</p>
+      </editorialDecl>
+	<encodingDesc>
+   	   <tagsDecl>
+    	    <rendition xml:id="b" n="teibp:bold" scheme="css">font-weight:bold;</rendition>
+     	   <rendition xml:id="i" n="teibp:italics" scheme="css">font-style:italic;</rendition>
+    	    <rendition xml:id="du" n="teibp:underline" scheme="css">text-decoration:underline;  text-decoration-style:dashed;</rendition>
+    	    <rendition xml:id="blue" scheme="css">color:blue;</rendition>
+    	    <rendition xml:id="green" scheme="css">color:green;</rendition>
+    	    <rendition xml:id="orange" scheme="css">color:orange;</rendition>
+   	     <namespace name="http://www.tei-c.org/ns/1.0">
+    	    <tagUsage gi="date" render="#b"/>
+     	   <tagUsage gi="term" render="#i"/>
+       	 <tagUsage gi="unclear" render="#du"/>
+      	  <tagUsage gi="persName" render="#blue"/>
+      	  <tagUsage gi="placeName" render="#orange"/>
+      	  <tagUsage gi="title" render="#green"/>
+      	  </namespace>
+   	   </tagsDecl>
+	</encodingDesc>
+    </encodingDesc>
+
+    <profileDesc> <!-- optional! -->
+      <langUsage>
+        <language ident="en">English</language>
+        <language ident="wylie">Tibetan (Wylie)</language>
+        <language ident="bo">Tibetan (Tibetan script)</language>
+        <language ident="sa">Sanskrit</language>
+      </langUsage>
+    </profileDesc>
+
+    <revisionDesc> <!-- optional! version history -->
+      <change when="2019-03-11" who="#mf">witness added to TEI-header</change>
+      <change when="2019-03-26" who="#mf">revision of first paragraph, completion of markup</change>
+      <change when="2019-03-27" who="#mf">identification of persons in first paragraph, linking to BUDA</change>
+			<change when="2019-04-10" who="#mf">tagging of persons, places and dates in first paragraph, pp. 119.6-120.3</change>
+			<change when="2019-05-08" who="#mf">tagging of titles, linking places in the first two paragraphs</change>
+    </revisionDesc>
+  </teiHeader>
+
+<text>
+<body>
+  <pb ed="A" n="119" facs="../images/Ganden history/W23957_119.jpg"/><div><p>[...] གདན་སའི་གཙོ་བོ་དགའ་ལྡན་རྣམ་པར་རྒྱལ་བའི་གླིང་གི་གསེར་ཁྲིར་ཕེབས་པའི་རྒྱལ་ཚབ་དམ་པའི་རིམ་པ་ནི
+   <trans xml:lang="ger">Die Abfolge der Repräsentanten, welche den goldenen Thron von dGa' ldan rnam par rgyal ba'i gling, dem Haupt-Abtsitz [der Gelugpa Schule] bestiegen haben:</trans></p></div>
+<persName type="BUDA" key="P64">འཇམ་མགོན་ཆོས་ཀྱི་རྒྱལ་པོ</persName>་ཞིང་ཁམས་གཞན་དུ་གཤེགས་པར་ཉེ་བ་ན
+  <persName type="BUDA" key="P65">་རྒྱལ་ཚབ་རིན་པོ་ཆེ</persName>ར་དབུ་ཞྭ་པཎ་ཞྭ་དང་སྐུ་བེར་སོགས་གནང་བའི་དགོངས་པ་ལ་བརྟེན་
+  <persName type="BUDA" key="P1591">འདུལ་འཛིན་པ</persName>ས་ཐོག་དྲངས་པའི་སློབ་འཁོར་རྣམས་ཀྱིས་
+  གསེར་ཁྲིར་<gloss>རྒྱལ་ཚབ་ཀྱི་</gloss>དང་པོར་གསོལ་བའི་ཁྲི་ཐོག་གཉིས་པ་<persName type="BUDA" key="P65">ཐམས་ཅད་མཁྱེན་པ་དར་མ་རིན་ཆེན</persName>་ནི་
+  གཙང་སྟོད་དུ་<date when="1364">རབ་བྱུང་དྲུག་པའི་ཤིང་འབྲུག</date>་ལ་འཁྲུངས།
+  <trans xml:lang="ger">...</trans>
+</body>
+</text>
+
+</TEI>
