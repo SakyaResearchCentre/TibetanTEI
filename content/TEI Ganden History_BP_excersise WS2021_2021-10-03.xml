@@ -29,10 +29,10 @@
       <sourceDesc> <!-- mandatory!  bibliographic information about the source/s from which the digital text is derived or generated -->
         <listWit> <!-- list of consulted editions (manuscript/block print), editor, place and year of publication, extent-->
           <witness xml:id="A">
-          <bibl>དཔལ་མཉམ་མེད་རི་བོ་དགེ་ལྡན་པའི་ཆོས་འབྱུང་བཻཌཱུར་སེར་པོའི་མེ་ལོང་། New Delhi: Ngawang Gelek Demo, 1980. 2 volumes. BUDA: W23957</bibl>
+          <bibl>དཔལ་མཉམ་མེད་རི་བོ་དགའ་ལྡན་པའི་བསྟན་པ་ཞྭ་སེར་ཅོད་པན་འཆང་བའི་རིང་ལུགས་ཆོས་ཐམས་ཅད་ཀྱི་རྩ་བ་གསལ་བར་བྱེད་པ་བཻཌཱུརྱ་སེར་པོའི་མེ་ལོང་། Old Lhasa Zhol Block-print, National Library of Mongolia. BUDA: W1KG1610</bibl>
           </witness>
           <witness xml:id="B">
-          <bibl>དགའ་ལྡན་ཆོས་འབྱུང་བཻཌཱུརྱ་སེར་པོ། Beijing: Krung go bod kyi shes rig dpe skrun khang, 1989. BUDA: W8224</bibl>
+          <bibl>དཔལ་མཉམ་མེད་རི་བོ་དགེ་ལྡན་པའི་ཆོས་འབྱུང་བཻཌཱུར་སེར་པོའི་མེ་ལོང་། New Delhi: Ngawang Gelek Demo, 1980. 2 volumes. BUDA: W23957</bibl>
           </witness>
         </listWit>
       </sourceDesc>
@@ -82,7 +82,7 @@
 
 <text>
 <body>
-  <pb ed="A" n="119" facs="../images/Ganden history/W23957_119.jpg"/><div><p>[...] གདན་སའི་གཙོ་བོ་དགའ་ལྡན་རྣམ་པར་རྒྱལ་བའི་གླིང་གི་གསེར་ཁྲིར་ཕེབས་པའི་རྒྱལ་ཚབ་དམ་པའི་རིམ་པ་ནི
+  <pb ed="A" n="60a" facs="../images/Ganden history/W1KG1610_60a.jpg"/><div><p>[...] གདན་སའི་གཙོ་བོ་དགའ་ལྡན་རྣམ་པར་རྒྱལ་བའི་གླིང་གི་གསེར་ཁྲིར་ཕེབས་པའི་རྒྱལ་ཚབ་དམ་པའི་རིམ་པ་ནི
    <trans xml:lang="ger">Die Abfolge der Repräsentanten, welche den goldenen Thron von dGa' ldan rnam par rgyal ba'i gling, dem Haupt-Abtsitz [der Gelugpa Schule] bestiegen haben:</trans></p></div>
 <persName type="BUDA" key="P64">འཇམ་མགོན་ཆོས་ཀྱི་རྒྱལ་པོ</persName>་ཞིང་ཁམས་གཞན་དུ་གཤེགས་པར་ཉེ་བ་ན
   <persName type="BUDA" key="P65">་རྒྱལ་ཚབ་རིན་པོ་ཆེ</persName>ར་དབུ་ཞྭ་པཎ་ཞྭ་དང་སྐུ་བེར་སོགས་གནང་བའི་དགོངས་པ་ལ་བརྟེན་
