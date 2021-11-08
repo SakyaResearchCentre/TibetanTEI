@@ -5,8 +5,8 @@
   <teiHeader>
      <fileDesc> <!-- mandatory!  bibliographic description of the digital file -->
       <titleStmt><!-- mandatory!  Titles, author and editor/s of the digital document -->
-        <title xml:lang="bo">དཔལ་མཉམ་མེད་རི་བོ་དགེ་ལྡན་པའི་ཆོས་འབྱུང་བཻཌཱུར་པོའི་མེ་ལོང་ལས། དགའ་ལྡན་གྱི་གདན་རབས་སྐོར།</title>
-        <title xml:lang="en">sDe srid Sangs rgyas rgya mtsho's (1653–1705) History of the Ganden Tradition, Section on the abbatial succession of Ganden monastery</title>
+        <title xml:lang="bo">དཔལ་མཉམ་མེད་རི་བོ་དགའ་ལྡན་པའི་བསྟན་པ་ཞྭ་སེར་ཅོད་པན་འཆང་བའི་རིང་ལུགས་ཆོས་ཐམས་ཅད་ཀྱི་རྩ་བ་གསལ་བར་བྱེད་པ་བཻཌཱུརྱ་སེར་པོའི་མེ་ལོང་ལས། དགའ་ལྡན་གྱི་གདན་རབས་སྐོར།</title>
+        <title xml:lang="en">sDe srid Sangs rgyas rgya mtsho's (1653–1705) Religionsgeschichte der Gandenpa: Abschnitt über die Abtfolge des Klosters Ganden</title>
         <author>
           <name xml:lang="bo">སྡེ་སྲིད་སངས་རྒྱས་རྒྱ་མཚོ། (༡༦༥༣-༡༧༠༥)</name>
         </author>
